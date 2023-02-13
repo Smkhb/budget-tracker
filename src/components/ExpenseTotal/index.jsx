@@ -8,7 +8,6 @@ const ExpenseTotal = ()=>{
     },0)
     return (
         <div className="alert alert-primary">
-            <span>Spent so far:R$450</span>
             <span>Spent so far: R${totalExpenses}</span>
         </div>
     )
