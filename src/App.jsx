@@ -11,7 +11,7 @@ const App = () => {
   return (
     <AppProvider>
       <div className='container'>
-        <h1 className='mt-3'>My Budget Planner</h1>
+        <h1 className='mt-3'>Lista de Gastos</h1>
         <div className='row mt-3'>
           <div className='col-sm'>
             <Budget />
@@ -23,13 +23,13 @@ const App = () => {
             <ExpenseTotal />
           </div>
         </div>
-        <h3 className='mt-3'>Expenses</h3>
+        <h3 className='mt-3'>Gastos</h3>
         <div className='row mt-3'>
           <div className='col-sm'>
             <ExpenseList />
           </div>
         </div>
-        <h3 className='mt-3'>Add Expense</h3>
+        <h3 className='mt-3'>Adicionar Gasto</h3>
         <div className='mt-3'>
           <div className='col-sm'>
             <AddExpenseForm />

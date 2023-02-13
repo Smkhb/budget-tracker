@@ -26,7 +26,7 @@ const AddExpenseForm = () => {
         <form onSubmit={onSubmit}>
             <div className="row">
                 <div className="col-sm">
-                    <label for='name'>Name</label>
+                    <label for='name'>Gasto</label>
                     <input
                         required='required'
                         type='text'
@@ -37,7 +37,7 @@ const AddExpenseForm = () => {
                     </input>
                 </div>
                 <div className="col-sm">
-                    <label for='cost'>Cost</label>
+                    <label for='cost'>Valor</label>
                     <input
                         required='required'
                         type='text'
@@ -48,7 +48,7 @@ const AddExpenseForm = () => {
                     </input>
                 </div>
                 <div className="col-sm">
-                    <button type="submit" className="btn btn-primary">Save</button>
+                    <button type="submit" className="btn btn-primary">Adicionar</button>
                 </div>
             </div>
         </form>
